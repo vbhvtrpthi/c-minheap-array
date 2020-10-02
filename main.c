@@ -19,7 +19,7 @@ int main(int argc, char** argv) {
     printf("Sorting array of %d random entries.\n", count);
 
     // Allocate a key and value
-    int* key = (int*)malloc(count*sizeof(int));
+    int* key = (int*)malloc(count*sizeof(int));//In c++ also it will work,but you can also go with "int *key=new int"
     char* value = "The meaning of life.";
 
     // Initialize the first key
